@@ -21,5 +21,5 @@ if (!empty($_GET["search"]) && isset($_GET["search"])) {
   $results = $query->fetchAll();
   $rows = $query->rowCount();
 
-  debug_array($rows);
+  // debug_array($rows);
 }
